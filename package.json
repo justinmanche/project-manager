@@ -1,8 +1,11 @@
 {
-  "name": "Project manager",
+  "name": "project-manager",
   "version": "1.0.0",
   "description": "CLI tool with useful commands for maintaing multiple projects at once",
   "main": "index.js",
+  "bin": {
+    "pm": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

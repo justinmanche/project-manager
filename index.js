@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const { prompt, BooleanPrompt } = require('enquirer')
 const program = require('./lib/program')
 const commands = require('./lib/commands')
